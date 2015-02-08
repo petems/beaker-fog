@@ -19,4 +19,11 @@ Gem::Specification.new do |s|
   # Optional provisioner specific support
   s.add_runtime_dependency 'beaker'
 
+  s.add_development_dependency "rake"
+  s.add_development_dependency "rspec-core", "~> 2.14.0"
+  s.add_development_dependency "rspec-expectations", "~> 2.14.0"
+  s.add_development_dependency "rspec-mocks", "~> 2.14.0"
+  s.add_development_dependency "webmock", "~> 1.11.0"
+  s.add_development_dependency "coveralls", "~> 0.6.7"
+
 end
