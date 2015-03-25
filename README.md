@@ -1,4 +1,5 @@
 # beaker-fog
+[![Build Status](https://travis-ci.org/petems/beaker-fog.svg)](https://travis-ci.org/petems/beaker-fog)
 
 A Plugin for [Beaker](https://github.com/puppetlabs/beaker), to add an additional hypervisor for Fog servers.
 
